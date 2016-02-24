@@ -6,7 +6,7 @@
   - common
   - apache
   - php
-  - mysql
   - holland
   - phpmyadmin
   - firewall
+  - lsync
