@@ -1,0 +1,11 @@
+---
+- name: Install and configure WordPress
+  hosts: localhost
+  connection: local
+  roles:
+  - common
+  - nginx
+  - php-fpm
+  - holland
+  - wordpress
+  - phpmyadmin
