@@ -1,0 +1,8 @@
+---
+- name: Install and configure Galera
+  hosts: localhost
+  connection: local
+  roles:
+  - common
+  - galera
+  - firewall
